@@ -1,0 +1,4024 @@
+fileFormatVersion: 2
+guid: 27ea0d83c7bcf4cc885b829c1f4ab85a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1845291015387950633
+    second: Braid Sprite Sheet_0
+  - first:
+      213: -7712323892518407839
+    second: Braid Sprite Sheet_1
+  - first:
+      213: 3207280019041561415
+    second: Braid Sprite Sheet_2
+  - first:
+      213: -4422342970911053013
+    second: Braid Sprite Sheet_3
+  - first:
+      213: -1772675262418625811
+    second: Braid Sprite Sheet_4
+  - first:
+      213: -6477439857713773344
+    second: Braid Sprite Sheet_5
+  - first:
+      213: -7720479216709534568
+    second: Braid Sprite Sheet_6
+  - first:
+      213: 8658088286877457465
+    second: Braid Sprite Sheet_7
+  - first:
+      213: 7644034701009822314
+    second: Braid Sprite Sheet_8
+  - first:
+      213: 6487137069861388446
+    second: Braid Sprite Sheet_9
+  - first:
+      213: -1958028056791753013
+    second: Braid Sprite Sheet_10
+  - first:
+      213: 3133357786365170678
+    second: Braid Sprite Sheet_11
+  - first:
+      213: 1117822381449229018
+    second: Braid Sprite Sheet_12
+  - first:
+      213: 10006695498806481
+    second: Braid Sprite Sheet_13
+  - first:
+      213: 1666483079939154975
+    second: Braid Sprite Sheet_14
+  - first:
+      213: 6300844046423757397
+    second: Braid Sprite Sheet_15
+  - first:
+      213: 8820470100076245787
+    second: Braid Sprite Sheet_16
+  - first:
+      213: -1926628421833799861
+    second: Braid Sprite Sheet_17
+  - first:
+      213: -3948630471952010645
+    second: Braid Sprite Sheet_18
+  - first:
+      213: 7865137780152297500
+    second: Braid Sprite Sheet_19
+  - first:
+      213: -1488914403212285880
+    second: Braid Sprite Sheet_20
+  - first:
+      213: 842866065756155903
+    second: Braid Sprite Sheet_21
+  - first:
+      213: -7192327380339691203
+    second: Braid Sprite Sheet_22
+  - first:
+      213: 2060471585755349815
+    second: Braid Sprite Sheet_23
+  - first:
+      213: -7506570011762154232
+    second: Braid Sprite Sheet_24
+  - first:
+      213: -2250818713707610165
+    second: Braid Sprite Sheet_25
+  - first:
+      213: 7476888416061103488
+    second: Braid Sprite Sheet_26
+  - first:
+      213: 5194961135278826162
+    second: Braid Sprite Sheet_27
+  - first:
+      213: 3423041820955112325
+    second: Braid Sprite Sheet_28
+  - first:
+      213: -1712298891193645967
+    second: Braid Sprite Sheet_29
+  - first:
+      213: -2925288805492343100
+    second: Braid Sprite Sheet_30
+  - first:
+      213: -1686187316534982289
+    second: Braid Sprite Sheet_31
+  - first:
+      213: 4161753457202829733
+    second: Braid Sprite Sheet_32
+  - first:
+      213: -2161934801159207340
+    second: Braid Sprite Sheet_33
+  - first:
+      213: -133612287243700784
+    second: Braid Sprite Sheet_34
+  - first:
+      213: -9072673630536499223
+    second: Braid Sprite Sheet_35
+  - first:
+      213: -6853066428303760841
+    second: Braid Sprite Sheet_36
+  - first:
+      213: 5157923881592518012
+    second: Braid Sprite Sheet_37
+  - first:
+      213: -3683260514390413592
+    second: Braid Sprite Sheet_38
+  - first:
+      213: 8554930144865811835
+    second: Braid Sprite Sheet_39
+  - first:
+      213: 1005023639538448008
+    second: Braid Sprite Sheet_40
+  - first:
+      213: -3083261193579443386
+    second: Braid Sprite Sheet_41
+  - first:
+      213: 9135278997739045519
+    second: Braid Sprite Sheet_42
+  - first:
+      213: -2706545955398588473
+    second: Braid Sprite Sheet_43
+  - first:
+      213: -3571873798534615028
+    second: Braid Sprite Sheet_44
+  - first:
+      213: -4402795576341706995
+    second: Braid Sprite Sheet_45
+  - first:
+      213: -1903329140513264676
+    second: Braid Sprite Sheet_46
+  - first:
+      213: -3184707733065031895
+    second: Braid Sprite Sheet_47
+  - first:
+      213: -9082594593978364348
+    second: Braid Sprite Sheet_48
+  - first:
+      213: 22336794030261932
+    second: Braid Sprite Sheet_49
+  - first:
+      213: 9031090511491825762
+    second: Braid Sprite Sheet_50
+  - first:
+      213: 7324868413254220839
+    second: Braid Sprite Sheet_51
+  - first:
+      213: 323721330406085825
+    second: Braid Sprite Sheet_52
+  - first:
+      213: 3793808721759829880
+    second: Braid Sprite Sheet_53
+  - first:
+      213: -5505919701419489346
+    second: Braid Sprite Sheet_54
+  - first:
+      213: -2372743912358357187
+    second: Braid Sprite Sheet_55
+  - first:
+      213: -3574603651457151131
+    second: Braid Sprite Sheet_56
+  - first:
+      213: 6411306589145396731
+    second: Braid Sprite Sheet_57
+  - first:
+      213: 638911295854844353
+    second: Braid Sprite Sheet_58
+  - first:
+      213: -8521058657698890340
+    second: Braid Sprite Sheet_59
+  - first:
+      213: -3579058613515901594
+    second: Braid Sprite Sheet_60
+  - first:
+      213: 649691528342534797
+    second: Braid Sprite Sheet_61
+  - first:
+      213: 4749477617297685749
+    second: Braid Sprite Sheet_62
+  - first:
+      213: 5573190756803456968
+    second: Braid Sprite Sheet_63
+  - first:
+      213: 2356245269548083503
+    second: Braid Sprite Sheet_64
+  - first:
+      213: 4644184825534418929
+    second: Braid Sprite Sheet_65
+  - first:
+      213: 8972880901615621098
+    second: Braid Sprite Sheet_66
+  - first:
+      213: 258068078062201121
+    second: Braid Sprite Sheet_67
+  - first:
+      213: -8775675042226799404
+    second: Braid Sprite Sheet_68
+  - first:
+      213: 5772597515497973935
+    second: Braid Sprite Sheet_69
+  - first:
+      213: 9021446179732424306
+    second: Braid Sprite Sheet_70
+  - first:
+      213: 1030238056441526339
+    second: Braid Sprite Sheet_71
+  - first:
+      213: 4611840428883678634
+    second: Braid Sprite Sheet_72
+  - first:
+      213: 7573567504919386063
+    second: Braid Sprite Sheet_73
+  - first:
+      213: 951986413312104038
+    second: Braid Sprite Sheet_74
+  - first:
+      213: -4753300809906184967
+    second: Braid Sprite Sheet_75
+  - first:
+      213: -865407260044112764
+    second: Braid Sprite Sheet_76
+  - first:
+      213: -352816991676393680
+    second: Braid Sprite Sheet_77
+  - first:
+      213: 1126862572846248060
+    second: Braid Sprite Sheet_78
+  - first:
+      213: 4064800408527615151
+    second: Braid Sprite Sheet_79
+  - first:
+      213: 2505258965583352098
+    second: Braid Sprite Sheet_80
+  - first:
+      213: -8361398342381260827
+    second: Braid Sprite Sheet_81
+  - first:
+      213: 5674281384195618943
+    second: Braid Sprite Sheet_82
+  - first:
+      213: 1243899231576112297
+    second: Braid Sprite Sheet_83
+  - first:
+      213: -3554936398250062849
+    second: Braid Sprite Sheet_84
+  - first:
+      213: -2972731619123666348
+    second: Braid Sprite Sheet_85
+  - first:
+      213: -3761741806273358460
+    second: Braid Sprite Sheet_86
+  - first:
+      213: 7647514635672058144
+    second: Braid Sprite Sheet_87
+  - first:
+      213: -6862172587749144068
+    second: Braid Sprite Sheet_88
+  - first:
+      213: -1062948473205264283
+    second: Braid Sprite Sheet_89
+  - first:
+      213: -4237992135911153799
+    second: Braid Sprite Sheet_90
+  - first:
+      213: -1038027706489622359
+    second: Braid Sprite Sheet_91
+  - first:
+      213: -950014765432276830
+    second: Braid Sprite Sheet_92
+  - first:
+      213: 6365335970992622430
+    second: Braid Sprite Sheet_93
+  - first:
+      213: -8710761301763682725
+    second: Braid Sprite Sheet_94
+  - first:
+      213: 7369023099067580079
+    second: Braid Sprite Sheet_95
+  - first:
+      213: -7638062931972524099
+    second: Braid Sprite Sheet_96
+  - first:
+      213: 3488152709433563884
+    second: Braid Sprite Sheet_97
+  - first:
+      213: -828392576096321237
+    second: Braid Sprite Sheet_98
+  - first:
+      213: 4423924069603461338
+    second: Braid Sprite Sheet_99
+  - first:
+      213: -1381455714930968612
+    second: Braid Sprite Sheet_100
+  - first:
+      213: 2970049491585479236
+    second: Braid Sprite Sheet_101
+  - first:
+      213: -1909208361246968095
+    second: Braid Sprite Sheet_102
+  - first:
+      213: -1927162647413405529
+    second: Braid Sprite Sheet_103
+  - first:
+      213: 5822481994265448130
+    second: Braid Sprite Sheet_104
+  - first:
+      213: 2605763570490429523
+    second: Braid Sprite Sheet_105
+  - first:
+      213: 8206081638750234115
+    second: Braid Sprite Sheet_106
+  - first:
+      213: -3293148358633412017
+    second: Braid Sprite Sheet_107
+  - first:
+      213: 2805242291174272156
+    second: Braid Sprite Sheet_108
+  - first:
+      213: -6280140798709787980
+    second: Braid Sprite Sheet_109
+  - first:
+      213: 5052914353398301409
+    second: Braid Sprite Sheet_110
+  - first:
+      213: 7947435632777245633
+    second: Braid Sprite Sheet_111
+  - first:
+      213: -2884057278976017999
+    second: Braid Sprite Sheet_112
+  - first:
+      213: -1328140956649227699
+    second: Braid Sprite Sheet_113
+  - first:
+      213: -7744019239372510532
+    second: Braid Sprite Sheet_114
+  - first:
+      213: 3278829737547122653
+    second: Braid Sprite Sheet_115
+  - first:
+      213: -1195452425607455729
+    second: Braid Sprite Sheet_116
+  - first:
+      213: -7192319804863887864
+    second: Braid Sprite Sheet_117
+  - first:
+      213: -4271069481019877608
+    second: Braid Sprite Sheet_118
+  - first:
+      213: -3284967398855785124
+    second: Braid Sprite Sheet_119
+  - first:
+      213: 2132818496968954588
+    second: Braid Sprite Sheet_120
+  - first:
+      213: 3665512948249087138
+    second: Braid Sprite Sheet_121
+  - first:
+      213: 328540914478472841
+    second: Braid Sprite Sheet_122
+  - first:
+      213: -1995119535569005543
+    second: Braid Sprite Sheet_123
+  - first:
+      213: 2237348528571492107
+    second: Braid Sprite Sheet_124
+  - first:
+      213: -7778915033718205786
+    second: Braid Sprite Sheet_125
+  - first:
+      213: -3075617368119357229
+    second: Braid Sprite Sheet_126
+  - first:
+      213: 7960655201138541544
+    second: Braid Sprite Sheet_127
+  - first:
+      213: 4647765885668532722
+    second: Braid Sprite Sheet_128
+  - first:
+      213: -4332151366709189796
+    second: Braid Sprite Sheet_129
+  - first:
+      213: 4463921938084229717
+    second: Braid Sprite Sheet_130
+  - first:
+      213: 8142408634733681490
+    second: Braid Sprite Sheet_131
+  - first:
+      213: -1659688491761451685
+    second: Braid Sprite Sheet_132
+  - first:
+      213: 3556405753729874641
+    second: Braid Sprite Sheet_133
+  - first:
+      213: -4914788544962697938
+    second: Braid Sprite Sheet_134
+  - first:
+      213: -4851968628922117374
+    second: Braid Sprite Sheet_135
+  - first:
+      213: 6420691466693403053
+    second: Braid Sprite Sheet_136
+  - first:
+      213: -1139460415676541047
+    second: Braid Sprite Sheet_137
+  - first:
+      213: 8287282797559939926
+    second: Braid Sprite Sheet_138
+  - first:
+      213: 8243956187845122573
+    second: Braid Sprite Sheet_139
+  - first:
+      213: 4061544094284397092
+    second: Braid Sprite Sheet_140
+  - first:
+      213: 615585175727215898
+    second: Braid Sprite Sheet_141
+  - first:
+      213: 8512023093259063904
+    second: Braid Sprite Sheet_142
+  - first:
+      213: 5028402454833341267
+    second: Braid Sprite Sheet_143
+  - first:
+      213: -4893004285388314447
+    second: Braid Sprite Sheet_144
+  - first:
+      213: 2017493394803741477
+    second: Braid Sprite Sheet_145
+  - first:
+      213: -3083521418738709403
+    second: Braid Sprite Sheet_146
+  - first:
+      213: 3141196627451881382
+    second: Braid Sprite Sheet_147
+  - first:
+      213: 7499787545558301278
+    second: Braid Sprite Sheet_148
+  - first:
+      213: 692911741627773492
+    second: Braid Sprite Sheet_149
+  - first:
+      213: 2224622492572874227
+    second: Braid Sprite Sheet_150
+  - first:
+      213: -4271165420019595905
+    second: Braid Sprite Sheet_151
+  - first:
+      213: -7157042543336246951
+    second: Braid Sprite Sheet_152
+  - first:
+      213: -1194339456335826384
+    second: Braid Sprite Sheet_153
+  - first:
+      213: 777488143698425638
+    second: Braid Sprite Sheet_154
+  - first:
+      213: -8594776897450622349
+    second: Braid Sprite Sheet_155
+  - first:
+      213: -2397751141547647225
+    second: Braid Sprite Sheet_156
+  - first:
+      213: 4958566282317337198
+    second: Braid Sprite Sheet_157
+  - first:
+      213: 1710674946869002658
+    second: Braid Sprite Sheet_158
+  - first:
+      213: 5241307959902093976
+    second: Braid Sprite Sheet_159
+  - first:
+      213: -4528397190144247162
+    second: Braid Sprite Sheet_160
+  - first:
+      213: 7440305472958366856
+    second: Braid Sprite Sheet_161
+  - first:
+      213: 542643771527682929
+    second: Braid Sprite Sheet_162
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7e383fe080452a8574f41246337aa
+      internalID: -1845291015387950633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb092367d3a94fc0aa770290ac3622c
+      internalID: -7712323892518407839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7585a8098887342499a9d949574c2900
+      internalID: 3207280019041561415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b764f103f25f940f78d8e50bf88c27ec
+      internalID: -4422342970911053013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b27237d658c4229907bf0a1abae3b2
+      internalID: -1772675262418625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1209
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c50d43e610e4be9b0991edfacf9d04
+      internalID: -6477439857713773344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1209
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214a7d02bcbea40c8a50eb9283ec3843
+      internalID: -7720479216709534568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1209
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80fccdff8a0a41e29e975a403512a60
+      internalID: 8658088286877457465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222812b3f08994a649baea1a16bed69a
+      internalID: 7644034701009822314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37421768d7cfa4c8fb05ee14ba3f49cd
+      internalID: 6487137069861388446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb2e406710a145a0a304ecc94d62475
+      internalID: -1958028056791753013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed28c40958704c589ef4900d684749e
+      internalID: 3133357786365170678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b30938e92384d1eabd087aa3cb970e
+      internalID: 1117822381449229018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ff568c5f66140d0a8c9e46f7026809
+      internalID: 10006695498806481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653a29cffaa94252a3aab7d261bb979
+      internalID: 1666483079939154975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1209
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7219ec7dcf0e64e048cbbc4f92e4ff73
+      internalID: 6300844046423757397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ede2de9cb14b3cb5aa38c64b506d3
+      internalID: 8820470100076245787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472607da40aaa42f9a83f3b19200731e
+      internalID: -1926628421833799861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e72a64402fc646c689981970c6015ce
+      internalID: -3948630471952010645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6bbed4c69674527b4f18e1737a7f61
+      internalID: 7865137780152297500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7541cb5644e114d6d92fc8227c217f2e
+      internalID: -1488914403212285880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1209
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bcf68db4d48419c8a9930ea61cd03b
+      internalID: 842866065756155903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1209
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f9b8715ca54bee9d306e741e62235
+      internalID: -7192327380339691203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1209
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d596e48e46894122b177e5bf315e790
+      internalID: 2060471585755349815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1033
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc2b20dd0231464ba1a09add41cddbb
+      internalID: -7506570011762154232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1032
+        width: 120
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a4803b0b2140a39a6570c2c617df3
+      internalID: -2250818713707610165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1030
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff647dbc6bfc45c4b53e1a56f1a9642
+      internalID: 7476888416061103488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1030
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7575b59104214a12a01e522ce74c31a
+      internalID: 5194961135278826162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1026
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f331f000a48c44e6896362d434f56e0c
+      internalID: 3423041820955112325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1026
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd23cf4bcb5964b92b10ebd0bb6bb79e
+      internalID: -1712298891193645967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1027
+        width: 103
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d248da27dadb7483faf6275a2cfe3108
+      internalID: -2925288805492343100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1027
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a480eb6ea1251481eaa9e0f766f24a81
+      internalID: -1686187316534982289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1026
+        width: 98
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396684f87667e48028892a98afbb8186
+      internalID: 4161753457202829733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1046
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e5636e85134448ab04b7e38c318028
+      internalID: -2161934801159207340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1053
+        width: 96
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2add56492bae40b883ef953bb71cd7c
+      internalID: -133612287243700784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1053
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe48da84dc04b46974c0eb63cf6d0d
+      internalID: -9072673630536499223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1057
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5c3e83591fb4b0bb5c53b405bbaab7
+      internalID: -6853066428303760841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1054
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d52e0210259495abe2bec55fa9132d
+      internalID: 5157923881592518012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1051
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caee7498d44514fb38b9f3f30b16e198
+      internalID: -3683260514390413592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1059
+        width: 125
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eea957a75344e4d82a946686259dd9
+      internalID: 8554930144865811835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 1059
+        width: 125
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76d535fd561400cb16aaaa161dbf5a
+      internalID: 1005023639538448008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1059
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d121bedacb05445bb724b7142ba0547
+      internalID: -3083261193579443386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 876
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d946c3b8e0f8d45628764b5b9d1e3b9a
+      internalID: 9135278997739045519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 879
+        width: 97
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a6104a094f4600a3d4093fbef89c7
+      internalID: -2706545955398588473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 878
+        width: 101
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6035d8d804d40d3a359a3dc5c4efe7
+      internalID: -3571873798534615028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 877
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a00fc9c5298c4e6a8f300de0a3a55be
+      internalID: -4402795576341706995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 882
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e8b82464ecc4ed2b7bdfcc08cacff5
+      internalID: -1903329140513264676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 885
+        width: 118
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbaaec6176b4447a8e93a8db69d4ad4
+      internalID: -3184707733065031895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 885
+        width: 120
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26cccbf936484922a82ff025cc9d700
+      internalID: -9082594593978364348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 882
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de9285371ba249fba13cae7555a51b3
+      internalID: 22336794030261932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 880
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452e5492fe8524d2ba2173157bd626b3
+      internalID: 9031090511491825762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 885
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3726c24e9270c41a7a7c9b9374d3e4d7
+      internalID: 7324868413254220839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 882
+        width: 99
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dff64ac96e404b1ba2cdfddaa8f2d60
+      internalID: 323721330406085825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 877
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a35d094150147f99e9321ea0094592
+      internalID: 3793808721759829880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 874
+        width: 93
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cc99e4bafb4cfdac1fd0eed678689
+      internalID: -5505919701419489346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 875
+        width: 95
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60ba111468a7428ab3c9b6b2eeeb917
+      internalID: -2372743912358357187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 877
+        width: 96
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3b501f9710141248967943b439714a
+      internalID: -3574603651457151131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 878
+        width: 98
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43896efc99e5b4a319ebcff9862a80b9
+      internalID: 6411306589145396731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 879
+        width: 103
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f18b5b6811ac40038b2c08424de01b9
+      internalID: 638911295854844353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 880
+        width: 107
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c5ecd43c634e009cf1c1be49c35f6
+      internalID: -8521058657698890340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 737
+        width: 105
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4349799cc544effb3aebaa03a67cd4
+      internalID: -3579058613515901594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 737
+        width: 106
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c181b36d3334d17a0cf72f0c2ade7f
+      internalID: 649691528342534797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 736
+        width: 100
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2356bf090c27843af850d43e6c1b794c
+      internalID: 4749477617297685749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 734
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573c86836490247428a612061845401c
+      internalID: 5573190756803456968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 735
+        width: 100
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c1f7092f0b4f6980c58f8f45cb8c4
+      internalID: 2356245269548083503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 735
+        width: 106
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfb4a78e1014b709fa089ab0c97480
+      internalID: 4644184825534418929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 735
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0173945e10441498c58133bf18adf3
+      internalID: 8972880901615621098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 735
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd76f63af8ab434eb6a297fc6187b72
+      internalID: 258068078062201121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 737
+        width: 114
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de64d2b55e8040b2ad1204b311ffdad
+      internalID: -8775675042226799404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 706
+        width: 109
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a1628aea725482e837526b35d5dacb
+      internalID: 5772597515497973935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 706
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73df6fdedcecf4c3faec5bbbfd456d82
+      internalID: 9021446179732424306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 706
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb082c309ac994a429a54e810c973f2f
+      internalID: 1030238056441526339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 707
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd18c3008060341c98d2ce217e1c9e7b
+      internalID: 4611840428883678634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 707
+        width: 110
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21e0c218b3344e7e84a7f8f9dc30202
+      internalID: 7573567504919386063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 795
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf6cb83aae6f4f1e9c6dbd583807fa7
+      internalID: 951986413312104038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 767
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767a269ff96e4d7a9a6c161eb500489
+      internalID: -4753300809906184967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 767
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f445e23f2d1445c9ddff777423678d
+      internalID: -865407260044112764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 734
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a50a8ec68c38468b803a64e5c915b4d
+      internalID: -352816991676393680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 733
+        width: 86
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b21aa983d0534f1e80bd8efa42fa101
+      internalID: 1126862572846248060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 745
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965f90f70749144c4a17728e6b6fe4a0
+      internalID: 4064800408527615151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 737
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b085d1e94b442388dd8c9ba2ea2c91
+      internalID: 2505258965583352098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 737
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f176bf6796f4b558b38f33e5b537ea
+      internalID: -8361398342381260827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 737
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abec6ea3ce394b49bdc3e69a841bd0d
+      internalID: 5674281384195618943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 548
+        width: 102
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626bd39c1b9bd4c769ab06142d604c5d
+      internalID: 1243899231576112297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 543
+        width: 101
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8412ee0fa1d41ac9f7871a86069908
+      internalID: -3554936398250062849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 552
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25f700750b9d4302aad372789f798b7
+      internalID: -2972731619123666348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 553
+        width: 107
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a4bcbcde1ce4c2ebfe32a95c0340d7
+      internalID: -3761741806273358460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 542
+        width: 103
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54717c3fe77144f790781564d53d277
+      internalID: 7647514635672058144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 542
+        width: 99
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1417546d5a6fb43b7ad25c6b8bae4abd
+      internalID: -6862172587749144068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 552
+        width: 102
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e539fbfc7e4904507a5369736e36d83d
+      internalID: -1062948473205264283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 553
+        width: 109
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359043e9b3c484f8a818ab04f4bbef57
+      internalID: -4237992135911153799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 545
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2599b165ff27e4010912ac03dee7e455
+      internalID: -1038027706489622359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 541
+        width: 129
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e030b4f9000fa40278ecd4301c1ac5e1
+      internalID: -950014765432276830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 543
+        width: 130
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae3ef3e1c97e461a84f6d1e6fb737da
+      internalID: 6365335970992622430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 547
+        width: 118
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a3392a904074045a44ce82c41b5fea
+      internalID: -8710761301763682725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 547
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebda50bb314b462ab852e0ba9ce3ffe
+      internalID: 7369023099067580079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 548
+        width: 117
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb79f74c28b45008dde53b3630e80d
+      internalID: -7638062931972524099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 545
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b202cd724be26460c9a94b56e81aab54
+      internalID: 3488152709433563884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 545
+        width: 111
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b1369214a24a5da697e476c368b97
+      internalID: -828392576096321237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 414
+        width: 88
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87213867454a947949d4d92cd2f6ba26
+      internalID: 4423924069603461338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 369
+        width: 106
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9e2f306457f49fea0fa4bc93a64e3e
+      internalID: -1381455714930968612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 369
+        width: 104
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aba6c45680e46b6bc424c63a57afbc
+      internalID: 2970049491585479236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 369
+        width: 106
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b1174fd8cb649deb6c3e316aff5239
+      internalID: -1909208361246968095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 369
+        width: 106
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd2e22b9fb8845abbf27c8f8e88215d
+      internalID: -1927162647413405529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 370
+        width: 105
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f16f31f026bf4a28bf27dc9ba353119
+      internalID: 5822481994265448130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 369
+        width: 106
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d6eb62b5ee465aa6498fdeee4a6d9
+      internalID: 2605763570490429523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 369
+        width: 107
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ea560679c8a464ca38aa78759c5b06
+      internalID: 8206081638750234115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 369
+        width: 107
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29e089bb971d478f8c59bf02b6f5777
+      internalID: -3293148358633412017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 369
+        width: 108
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbed3a2af3ccc49069c7b1cd842e0829
+      internalID: 2805242291174272156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 370
+        width: 110
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ef15908700449c687c91be5114a2b7
+      internalID: -6280140798709787980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 370
+        width: 111
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9d3fcef55a045e08f8ad678d5e781c
+      internalID: 5052914353398301409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 370
+        width: 116
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a0b06c61eb34cd48178059eea18e1d
+      internalID: 7947435632777245633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 369
+        width: 116
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b3f848e1fd434ebe7cd0f979af68f
+      internalID: -2884057278976017999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 369
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0864234550a949709a6746deab32dda
+      internalID: -1328140956649227699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 369
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c804e922d79464c8e9cc72c9bab42618
+      internalID: -7744019239372510532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 466
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f21d94a9339404d8525c2d3e02ff2d
+      internalID: 3278829737547122653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 466
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49740624ccc744cc8bf7dd20d19f8bc
+      internalID: -1195452425607455729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 448
+        width: 126
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc42f92178b3c4c198ca28ef78f491cf
+      internalID: -7192319804863887864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 432
+        width: 145
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33577163e7d2d48dcb706e795d264ea9
+      internalID: -4271069481019877608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 416
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340efdaa87ef1433db02871f9cc30931
+      internalID: -3284967398855785124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 416
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d21ee839d7b4abf8202db337d5c1e9
+      internalID: 2132818496968954588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 418
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a0482a5d5947b1ae5b67b4f4cff79
+      internalID: 3665512948249087138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 276
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9733125021d94a3eb6dcebad7c1e009
+      internalID: 328540914478472841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 211
+        width: 106
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62553144ee10a45899d16823f598983a
+      internalID: -1995119535569005543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 213
+        width: 111
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d957f781bd5402c9af31dd71d0cb18
+      internalID: 2237348528571492107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 213
+        width: 112
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84960f7bec75c468492752ec64d5a69b
+      internalID: -7778915033718205786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7036998c230c4ea098b5489d6a8d3b8
+      internalID: -3075617368119357229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 211
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34c4c59c506b4e518edf1026c26c515
+      internalID: 7960655201138541544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 211
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7612fd9d9578146fbb762879518ff917
+      internalID: 4647765885668532722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 210
+        width: 112
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8ec90cf430e45a4a974371937326c0
+      internalID: -4332151366709189796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 210
+        width: 107
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67616b2ca0b8f4b46a7c4ca5d84ae844
+      internalID: 4463921938084229717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 208
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1eb90cf130644448ef1c7f5ef886ab
+      internalID: 8142408634733681490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 204
+        width: 93
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee84d7fae68e458794a766ca9d73955
+      internalID: -1659688491761451685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 206
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29813dcd4a809407eb7905139b6a8ef1
+      internalID: 3556405753729874641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 206
+        width: 114
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1af9bc1697441dcbc2ad558517c93c
+      internalID: -4914788544962697938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 206
+        width: 118
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908260fe9c32f40199b438e9a67068a6
+      internalID: -4851968628922117374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 207
+        width: 117
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7fe5f3396b449f84ef823a95ca85f
+      internalID: 6420691466693403053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 208
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6ac7577b334fa5bfeabc76ce589f2
+      internalID: -1139460415676541047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 207
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d4186baab2c492bb43bc177a2f4b31
+      internalID: 8287282797559939926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 207
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec80d27dcf814a3897f75642018f535
+      internalID: 8243956187845122573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 208
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a578a6bd4ed394f36909ef8bbfaf3a5d
+      internalID: 4061544094284397092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 32
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fd88d455b9048b294ea2a8f7a36804
+      internalID: 615585175727215898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 86
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf2b1a9b8bb44c4836ae26ed36002c
+      internalID: 8512023093259063904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 31
+        width: 79
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f01438ff9ae8403e8743744cc031e5f
+      internalID: 5028402454833341267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 32
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a9871a242e41849796d0f312ec736
+      internalID: -4893004285388314447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 31
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c00fffdd9c2404fba19dad016e7502
+      internalID: 2017493394803741477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 35
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645e6810aa87746748111a1b726375f9
+      internalID: -3083521418738709403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 35
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f229d5fc11a4b7cb328fd41c991e42
+      internalID: 3141196627451881382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 35
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d061f53ef7b864c91b426b71d0b78c0f
+      internalID: 7499787545558301278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 35
+        width: 86
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d5951c737a402dbf2b6c3a66f7c5b
+      internalID: 692911741627773492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 35
+        width: 89
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695c941a196cf42809ef85eac5f5c939
+      internalID: 2224622492572874227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 35
+        width: 88
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e665495e82714dfd91f7e7096de5e27
+      internalID: -4271165420019595905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 35
+        width: 86
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eda9fd57c77426fb8cb26e36a60e1b
+      internalID: -7157042543336246951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 35
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d05ac06b11e429884bf303cb1c44b9
+      internalID: -1194339456335826384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 35
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f674b3d9d7945579ea2f367be9f6e1
+      internalID: 777488143698425638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 45
+        width: 87
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f41d5eb8554e6280141d3d1d77330
+      internalID: -8594776897450622349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b8d4a47ff94a4d8c7197dc01eee7e
+      internalID: -2397751141547647225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 45
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3cb8064a4ad46f6b572a3dc0131f55
+      internalID: 4958566282317337198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 45
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d62f7d8d6aca4132b8829e39be66038
+      internalID: 1710674946869002658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 45
+        width: 86
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6c0f0cdc0794391b2285a80da62af8
+      internalID: 5241307959902093976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 45
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021be8a741fc94d8e83d23f8890ec8a6
+      internalID: -4528397190144247162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3583dae949d64847be882c8c3002c2e
+      internalID: 7440305472958366856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Braid Sprite Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 45
+        width: 87
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e147bdc89dda4fd29c83b2eb2290184
+      internalID: 542643771527682929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9a6bd162af94e46aeb89b9d6bd2244b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
