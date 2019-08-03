@@ -689,7 +689,7 @@ MonoBehaviour:
   m_JumpForce: 800
   fallMultiplier: 2.5
   lowJumpMultiplier: 6
-  m_CrouchSpeed: 0.25
+  m_CrouchSpeed: 0.75
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2

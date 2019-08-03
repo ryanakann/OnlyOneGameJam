@@ -62,6 +62,7 @@ namespace UnityStandardAssets._2D
 		}
 
 
+
 		public void Move(float move, bool crouch, bool jump, bool holdJump = false)
         {
 			if (disableMovement) {

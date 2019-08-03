@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Fire Pit
+  - SlowDown
   layers:
   - Default
   - TransparentFX
