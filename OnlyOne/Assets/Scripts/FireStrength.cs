@@ -56,7 +56,7 @@ public class FireStrength : MonoBehaviour {
 	}
 
 	private void ResetStrength () {
-		print("Strength Reset!");
+		//print("Strength Reset!");
 		//Strength
 		currentStrength = maxStrength;
 

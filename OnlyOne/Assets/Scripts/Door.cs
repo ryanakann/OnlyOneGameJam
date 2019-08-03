@@ -41,7 +41,7 @@ public class Door : MonoBehaviour {
 	}
 
 	public void Open () {
-		print("Opening door!");
+		//print("Opening door!");
 		StopAllCoroutines();
 		StartCoroutine(OpenCR());
 	}
@@ -55,7 +55,7 @@ public class Door : MonoBehaviour {
 	}
 
 	public void Close () {
-		print("Closing door!");
+		//print("Closing door!");
 		StopAllCoroutines();
 		StartCoroutine(CloseCR());
 	}
