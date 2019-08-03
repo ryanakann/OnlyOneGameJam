@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class ButtonEventHandler : MonoBehaviour {
+	private bool buttonPressed;
+	private bool buttonPressedLF;
+	[SerializeField] private bool stayPressed;
+
 	public UnityEvent OnButtonDown;
 	public UnityEvent OnButtonStay;
 	public UnityEvent OnButtonUp;
 
 	public Transform buttonTop;
-	public Vector3 startPosition;
-	public Vector3 currentPosition;
-	public Vector3 difference;
-
-	public bool buttonPressed;
-	public bool buttonPressedLF;
+	private Vector3 startPosition;
+	private Vector3 currentPosition;
+	private Vector3 difference;
 
 	private void Start () {
 		if (buttonTop) {
-			startPosition = buttonTop.position;
+			startPosition = buttonTop.localPosition;
 		} else {
 			startPosition = Vector3.zero;
 		}
@@ -28,19 +29,27 @@ public class ButtonEventHandler : MonoBehaviour {
 	}
 
 	private void Update () {
-		buttonPressed = (buttonTop.position.y - startPosition.y < -0.05f);
+		buttonPressed = (buttonTop.localPosition.y - startPosition.y < -0.05f);
 
 		currentPosition = buttonTop.position;
 		difference = currentPosition - startPosition;
 
 		if (buttonPressed && !buttonPressedLF) {
-			print("Button Down!");
+			//print("Button Down!");
+			if (stayPressed) {
+				SpringJoint2D spring;
+				if (null != (spring = buttonTop.GetComponent<SpringJoint2D>())) {
+					print("Constrained!");
+					spring.distance = 0.5f;
+					spring.frequency = 5f;
+				}
+			}
 			OnButtonDown.Invoke();
 		} else if (buttonPressedLF && !buttonPressed) {
-			print("Button Up!");
+			//print("Button Up!");
 			OnButtonUp.Invoke();
 		} else if (buttonPressed && buttonPressedLF) {
-			print("Button Stay!");
+			//print("Button Stay!");
 			OnButtonStay.Invoke();
 		}
 

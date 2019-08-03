@@ -62,7 +62,6 @@ public class Door : MonoBehaviour {
 
 	private IEnumerator CloseCR () {
 		while ((startPosition - transform.position).sqrMagnitude > 0.01f) {
-			print("Hey!");
 			transform.position -= openVector / openDuration * Time.deltaTime;
 			yield return new WaitForEndOfFrame();
 		}
