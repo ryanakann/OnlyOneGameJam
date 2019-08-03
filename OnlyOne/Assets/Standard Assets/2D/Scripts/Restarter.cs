@@ -2,17 +2,10 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-namespace UnityStandardAssets._2D
-{
-    public class Restarter : MonoBehaviour
-    {
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.tag == "Player")
-            {
-				SceneController.ResetScene(true, 4f);
-            }
-        }
-    }
+public class Restarter : MonoBehaviour {
+	private void OnTriggerEnter2D (Collider2D collision) {
+		if (collision.CompareTag("Player")) {
+			//SceneController.
+		}
+	}
 }
