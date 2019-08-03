@@ -17,6 +17,7 @@ public class FadeController : MonoBehaviour {
 	public float fadeAmount = 1f;
 
 	private void Awake () {
+		fading = false;
 		if (null == instance) {
 			instance = this;
 			DontDestroyOnLoad(transform.root.gameObject);
@@ -26,9 +27,11 @@ public class FadeController : MonoBehaviour {
 		fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);
 	}
 
+	private void Start () {
+		FadeIn();
+	}
+
 	public static void FadeIn () {
-		if (instance.fading) return;
-		instance.fading = true;
 		FadeIn(instance.defaultFadeTime);
 	}
 
