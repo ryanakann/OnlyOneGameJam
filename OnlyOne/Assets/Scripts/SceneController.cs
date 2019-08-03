@@ -63,6 +63,7 @@ public class SceneController : MonoBehaviour {
 			instance.StartCoroutine(instance.LoadSceneCR(sceneIndex, fadeOutTime, fadeInTime));
 		} else {
 			SceneManager.LoadScene(sceneIndex);
+			instance.changingScenes = false;
 		}
 	}
 
