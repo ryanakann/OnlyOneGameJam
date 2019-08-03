@@ -56,6 +56,7 @@ public class FireStrength : MonoBehaviour {
 	}
 
 	private void ResetStrength () {
+		print("Strength Reset!");
 		//Strength
 		currentStrength = maxStrength;
 
@@ -109,6 +110,12 @@ public class FireStrength : MonoBehaviour {
 	}
 
 	private void Extinguish () {
+		print("Dead!");
+	}
 
+	private void OnTriggerStay2D (Collider2D collision) {
+		if (collision.CompareTag("Fire Pit")) {
+			ResetStrength();
+		}
 	}
 }
