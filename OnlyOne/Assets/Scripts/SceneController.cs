@@ -20,9 +20,9 @@ public class SceneController : MonoBehaviour {
 		}
 	}
 
-	private void Update () {
-		print("Changing Scenes: " + changingScenes);
-	}
+	//private void Update () {
+	//	print("Changing Scenes: " + changingScenes);
+	//}
 
 	public static void ResetScene (bool fade) {
 		ResetScene(fade, instance.defaultFadeOutTime, instance.defaultFadeInTime);

@@ -163,6 +163,7 @@ public class FireStrength : MonoBehaviour {
 		dead = true;
 		if (dead && !deadLF) {
 			print("Dead!");
+			GetComponent<UnityStandardAssets._2D.PlatformerCharacter2D>().Die();
 			SceneController.ResetScene(true, 5f);
 		}
 		deadLF = true;
