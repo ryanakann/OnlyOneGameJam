@@ -20,16 +20,16 @@ public class Door : MonoBehaviour {
 
 			switch (direction) {
 				case OpenDirection.up:
-					endPosition = startPosition + Vector3.up * GetComponent<SpriteRenderer>().size.y;
+					endPosition = startPosition + transform.up * GetComponent<SpriteRenderer>().size.y;
 					break;
 				case OpenDirection.down:
-					endPosition = startPosition + Vector3.down * GetComponent<SpriteRenderer>().size.y;
+					endPosition = startPosition + -transform.up * GetComponent<SpriteRenderer>().size.y;
 					break;
 				case OpenDirection.left:
-					endPosition = startPosition + Vector3.left * GetComponent<SpriteRenderer>().size.x;
+					endPosition = startPosition + -transform.right * GetComponent<SpriteRenderer>().size.x;
 					break;
 				case OpenDirection.right:
-					endPosition = startPosition + Vector3.right * GetComponent<SpriteRenderer>().size.x;
+					endPosition = startPosition + transform.right * GetComponent<SpriteRenderer>().size.x;
 					break;
 				default:
 					endPosition = startPosition;
@@ -47,7 +47,7 @@ public class Door : MonoBehaviour {
 	}
 
 	private IEnumerator OpenCR () {
-		while ((endPosition - transform.position).sqrMagnitude > 0.01f) {
+		while ((endPosition - transform.position).sqrMagnitude > openVector.magnitude / openDuration * Time.deltaTime) {
 			transform.position += openVector / openDuration * Time.deltaTime;
 			yield return new WaitForEndOfFrame();
 		}
@@ -61,7 +61,7 @@ public class Door : MonoBehaviour {
 	}
 
 	private IEnumerator CloseCR () {
-		while ((startPosition - transform.position).sqrMagnitude > 0.01f) {
+		while ((startPosition - transform.position).sqrMagnitude > openVector.magnitude / openDuration * Time.deltaTime) {
 			transform.position -= openVector / openDuration * Time.deltaTime;
 			yield return new WaitForEndOfFrame();
 		}
