@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 namespace UnityStandardAssets._2D
 {
     public class Restarter : MonoBehaviour
@@ -10,7 +11,7 @@ namespace UnityStandardAssets._2D
         {
             if (other.tag == "Player")
             {
-                SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+				SceneController.ResetScene(true, 4f);
             }
         }
     }

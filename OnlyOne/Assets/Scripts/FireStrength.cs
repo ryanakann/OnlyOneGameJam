@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireStrength : MonoBehaviour {
+	public AudioClip igniteSound;
+	private AudioSource loopSource;
+	private AudioSource ignitionSource;
+
 	[Header("Strength")]
 	public float maxStrength = 100f;
 	public float currentStrength = 100f;
 	public float percentLossPerSecond = 1f;
+	private bool resettingStrength;
+	private bool resettingStrengthLF;
 
 	[Header("Particle System")]
 	[Tooltip("Fill these in manually with any Particle Systems you want to decrease!")]
@@ -26,6 +32,19 @@ public class FireStrength : MonoBehaviour {
 	private void Start () {
 		//Strength
 		currentStrength = maxStrength;
+		resettingStrength = false;
+		resettingStrengthLF = false;
+
+		//Audio
+		loopSource = gameObject.GetComponent<AudioSource>();
+		ignitionSource = gameObject.AddComponent<AudioSource>();
+		loopSource.volume = 0.5f;
+		ignitionSource.clip = igniteSound;
+		ignitionSource.outputAudioMixerGroup = loopSource.outputAudioMixerGroup;
+		ignitionSource.spatialBlend = 0f;
+		ignitionSource.volume = 0.5f;
+		ignitionSource.playOnAwake = false;
+		ignitionSource.loop = false;
 
 		//Particle Systems
 		particleSystemCount = particleSystems.Length;
@@ -55,10 +74,30 @@ public class FireStrength : MonoBehaviour {
 		DecreaseStrength();
 	}
 
+	private void LateUpdate () {
+		resettingStrengthLF = resettingStrength;
+		resettingStrength = false;
+	}
+
+	IEnumerator IncreaseAudio () {
+		while (loopSource.volume < 0.5f) {
+			loopSource.volume += Time.deltaTime;
+			yield return new WaitForEndOfFrame();
+		}
+		loopSource.volume = 0.5f;
+	}
+
 	private void ResetStrength () {
-		//print("Strength Reset!");
 		//Strength
 		currentStrength = maxStrength;
+		resettingStrength = true;
+
+		//Audio
+		loopSource.volume = 0.5f;
+		//if (resettingStrength && !resettingStrengthLF) {
+		//	ignitionSource.Play();
+		//	StartCoroutine(IncreaseAudio());
+		//}
 
 		//Particle Systems
 		for (int i = 0; i < particleSystemCount; i++) {
@@ -87,6 +126,9 @@ public class FireStrength : MonoBehaviour {
 			return;
 		}
 
+		//Audio
+		loopSource.volume -= percentLossPerSecond / 200f * Time.deltaTime;
+
 		//Particle Systems
 		for (int i = 0; i < particleSystemCount; i++) {
 			ParticleSystem.EmissionModule emmision = particleSystems[i].emission;
@@ -111,6 +153,14 @@ public class FireStrength : MonoBehaviour {
 
 	private void Extinguish () {
 		print("Dead!");
+	}
+
+	private void OnTriggerEnter2D (Collider2D collision) {
+		if (collision.CompareTag("Fire Pit")) {
+			if (!ignitionSource.isPlaying) {
+				ignitionSource.Play();
+			}
+		}
 	}
 
 	private void OnTriggerStay2D (Collider2D collision) {
