@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class FadeController : MonoBehaviour {
 	public static FadeController instance;
 
 	public RawImage fade;
+	public AudioMixer audioMixer;
 	public float defaultFadeTime = 1f;
 	private bool fading = false;
 
@@ -38,9 +40,20 @@ public class FadeController : MonoBehaviour {
 	}
 
 	IEnumerator FadeInCR (float fadeTime) {
+		float startVolume = 0f;
+		float volumeDifference;
+		if (audioMixer) {
+			audioMixer.GetFloat("Volume", out startVolume);
+		}
+		volumeDifference = startVolume + 80f;
+
 		while (fadeAmount > 0f) {
 			fadeAmount -= Time.deltaTime / fadeTime;
 			fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);
+
+			if (audioMixer) {
+				audioMixer.SetFloat("Volume", Mathf.Lerp(0f, - 80f, fadeAmount));
+			}
 			yield return new WaitForEndOfFrame();
 		}
 		fadeAmount = 0f;
@@ -62,9 +75,18 @@ public class FadeController : MonoBehaviour {
 	}
 
 	IEnumerator FadeOutCR (float fadeTime) {
+		float startVolume = 1f;
+		if (audioMixer) {
+			audioMixer.GetFloat("Volume", out startVolume);
+		}
+
 		while (fadeAmount < 1f) {
 			fadeAmount += Time.deltaTime / fadeTime;
 			fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);
+
+			if (audioMixer) {
+				audioMixer.SetFloat("Volume", Mathf.Lerp(0f, -80f, fadeAmount));
+			}
 			yield return new WaitForEndOfFrame();
 		}
 		fadeAmount = 1f;

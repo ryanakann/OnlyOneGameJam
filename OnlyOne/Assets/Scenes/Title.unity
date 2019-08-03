@@ -467,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fade: {fileID: 343666654}
+  audioMixer: {fileID: 24100000, guid: 38c9dd9e8059d496888645d389af2096, type: 2}
   defaultFadeTime: 1
   fadeAmount: 1
 --- !u!114 &1201569423

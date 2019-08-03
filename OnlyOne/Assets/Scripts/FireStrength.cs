@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireStrength : MonoBehaviour {
+	[Header("Audio")]
 	public AudioClip igniteSound;
-	private AudioSource loopSource;
-	private AudioSource ignitionSource;
+	public AudioSource loopSource;
+	public AudioSource ignitionSource;
+	public AudioSource heartbeatSource;
 
 	[Header("Strength")]
 	public float maxStrength = 100f;
@@ -13,6 +15,8 @@ public class FireStrength : MonoBehaviour {
 	public float percentLossPerSecond = 1f;
 	private bool resettingStrength;
 	private bool resettingStrengthLF;
+	private bool dead;
+	private bool deadLF;
 
 	[Header("Particle System")]
 	[Tooltip("Fill these in manually with any Particle Systems you want to decrease!")]
@@ -34,17 +38,19 @@ public class FireStrength : MonoBehaviour {
 		currentStrength = maxStrength;
 		resettingStrength = false;
 		resettingStrengthLF = false;
+		dead = false;
+		deadLF = dead;
 
 		//Audio
-		loopSource = gameObject.GetComponent<AudioSource>();
-		ignitionSource = gameObject.AddComponent<AudioSource>();
-		loopSource.volume = 0.5f;
-		ignitionSource.clip = igniteSound;
-		ignitionSource.outputAudioMixerGroup = loopSource.outputAudioMixerGroup;
-		ignitionSource.spatialBlend = 0f;
-		ignitionSource.volume = 0.5f;
-		ignitionSource.playOnAwake = false;
-		ignitionSource.loop = false;
+		//loopSource = gameObject.GetComponent<AudioSource>();
+		//ignitionSource = gameObject.AddComponent<AudioSource>();
+		//loopSource.volume = 0.5f;
+		//ignitionSource.clip = igniteSound;
+		//ignitionSource.outputAudioMixerGroup = loopSource.outputAudioMixerGroup;
+		//ignitionSource.spatialBlend = 0f;
+		//ignitionSource.volume = 0.5f;
+		//ignitionSource.playOnAwake = false;
+		//ignitionSource.loop = false;
 
 		//Particle Systems
 		particleSystemCount = particleSystems.Length;
@@ -53,7 +59,7 @@ public class FireStrength : MonoBehaviour {
 		for (int i = 0; i < particleSystemCount; i++) {
 			float emissionRate = particleSystems[i].emission.rateOverTime.constant;
 			initialParticleEmissionRates[i] = emissionRate;
-			rateOfDecreaseOfParticleEmissionRates[i] = emissionRate * percentLossPerSecond / 100f;
+			rateOfDecreaseOfParticleEmissionRates[i] = emissionRate * percentLossPerSecond / maxStrength;
 		}
 
 		//Lights
@@ -62,7 +68,7 @@ public class FireStrength : MonoBehaviour {
 		rateOfDecreaseOfLightSizes = new Vector3[lightsCount];
 		for (int i = 0; i < lightsCount; i++) {
 			initialLightSizes[i] = lights[i].localScale;
-			rateOfDecreaseOfLightSizes[i] = initialLightSizes[i] * percentLossPerSecond / 100f;
+			rateOfDecreaseOfLightSizes[i] = initialLightSizes[i] * percentLossPerSecond / maxStrength;
 		}
 	}
 
@@ -71,12 +77,14 @@ public class FireStrength : MonoBehaviour {
 			ResetStrength();
 		}
 
-		DecreaseStrength();
-	}
+		//print(currentStrength / maxStrength);
+		if (currentStrength > 0f) {
+			heartbeatSource.volume = (currentStrength / maxStrength > 0.5f ? 0 : 0.5f * (1 - (currentStrength / maxStrength + 0.5f)));
+ 		} else {
+			heartbeatSource.volume = 0f;
+		}
 
-	private void LateUpdate () {
-		resettingStrengthLF = resettingStrength;
-		resettingStrength = false;
+		DecreaseStrength();
 	}
 
 	IEnumerator IncreaseAudio () {
@@ -127,7 +135,7 @@ public class FireStrength : MonoBehaviour {
 		}
 
 		//Audio
-		loopSource.volume -= percentLossPerSecond / 200f * Time.deltaTime;
+		loopSource.volume -= percentLossPerSecond / (maxStrength * 2f) * Time.deltaTime;
 
 		//Particle Systems
 		for (int i = 0; i < particleSystemCount; i++) {
@@ -152,7 +160,12 @@ public class FireStrength : MonoBehaviour {
 	}
 
 	private void Extinguish () {
-		print("Dead!");
+		dead = true;
+		if (dead && !deadLF) {
+			print("Dead!");
+			SceneController.ResetScene(true, 5f);
+		}
+		deadLF = true;
 	}
 
 	private void OnTriggerEnter2D (Collider2D collision) {
