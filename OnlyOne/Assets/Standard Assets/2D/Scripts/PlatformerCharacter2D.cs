@@ -21,7 +21,7 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-		private bool dead = false;
+		private bool disableMovement = false;
 
         private void Awake()
         {
@@ -51,16 +51,24 @@ namespace UnityStandardAssets._2D
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
 
+		public void ToggleInput (bool canInput) {
+			disableMovement = !canInput;
+		}
+
 		public void Die () {
-			dead = true;
+			disableMovement = true;
 			//m_Rigidbody2D.isKinematic = true;
-			transform.tag = "Default";
+			transform.tag = "Untagged";
 		}
 
 
 		public void Move(float move, bool crouch, bool jump, bool holdJump = false)
         {
-			if (dead) return;
+			if (disableMovement) {
+				m_Rigidbody2D.velocity = Vector2.Lerp(m_Rigidbody2D.velocity, Vector2.zero, 5f * Time.deltaTime);
+				m_Anim.SetFloat("Speed", Mathf.Clamp01(Mathf.Abs(m_Rigidbody2D.velocity.x)));
+				return;
+			}
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
             {

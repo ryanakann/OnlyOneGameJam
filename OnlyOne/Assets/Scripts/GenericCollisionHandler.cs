@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlaySound : MonoBehaviour {
+public class GenericCollisionHandler : MonoBehaviour {
 	public UnityEvent OnPlayerTriggerEnter2D;
 	public UnityEvent OnPlayerTriggerStay2D;
 	public UnityEvent OnPlayerTriggerExit2D;
