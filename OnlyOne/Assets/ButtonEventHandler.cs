@@ -26,6 +26,17 @@ public class ButtonEventHandler : MonoBehaviour {
 
 		buttonPressed = false;
 		buttonPressedLF = buttonPressed;
+
+		Rigidbody2D rb;
+
+		if (null != (rb = buttonTop.GetComponent<Rigidbody2D>())) {
+			if (Mathf.Abs(transform.up.x) > Mathf.Abs(transform.up.y)) {
+				rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+			} else {
+				rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+			}
+
+		}
 	}
 
 	private void Update () {
