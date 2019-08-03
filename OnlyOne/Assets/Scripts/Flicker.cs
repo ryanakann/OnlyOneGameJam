@@ -5,8 +5,8 @@ using Light2D;
 
 public class Flicker : MonoBehaviour
 {
-	Vector3 scale;
-	Vector3 position;
+	[HideInInspector] public Vector3 scale;
+	[HideInInspector] public Vector3 position;
 	private float tau;
 	Color color;
 
@@ -30,14 +30,18 @@ public class Flicker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		transform.localScale = new Vector3(scale.x + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time),
-										   scale.y + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time),
-										   scale.z + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time));
+		if (transform.localScale.x > 0f) {
+			transform.localScale = new Vector3(scale.x + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time),
+											   scale.y + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time),
+											   scale.z + scaleAmplitude * Mathf.Sin(tau * scaleFrequency * Time.time));
 
-		transform.localPosition += new Vector3(Random.value * shakeAmount * 2 - shakeAmount,
+			transform.localPosition += new Vector3(Random.value * shakeAmount * 2 - shakeAmount,
 											   Random.value * shakeAmount * 2 - shakeAmount,
 											   0f) * Time.deltaTime;
 
-		transform.localPosition += -(transform.localPosition - position) * Time.deltaTime;
+			transform.localPosition += -(transform.localPosition - position) * Time.deltaTime;
+		} else {
+			transform.localScale = Vector3.zero;
+		}
 	}
 }
