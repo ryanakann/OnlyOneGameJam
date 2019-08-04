@@ -73,9 +73,9 @@ public class FireStrength : MonoBehaviour {
 	}
 
 	private void Update () {
-		if (Input.GetKeyDown(KeyCode.F)) {
-			ResetStrength();
-		}
+		//if (Input.GetKeyDown(KeyCode.F)) {
+		//	ResetStrength();
+		//}
 
 		//print(currentStrength / maxStrength);
 		if (currentStrength > 0f) {
