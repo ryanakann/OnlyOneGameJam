@@ -12,6 +12,8 @@ public class Door : MonoBehaviour {
 
 	public OpenDirection direction;
 	public float openDuration = 2f;
+	[Tooltip("How many time Open() is called before the door actually opens.")]
+	public int numberOfTriggers = 1;
 
 	private void Start () {
 		startPosition = transform.position;
@@ -41,12 +43,14 @@ public class Door : MonoBehaviour {
 	}
 
 	public void Open () {
-		//print("Opening door!");
-		StopAllCoroutines();
-		StartCoroutine(OpenCR());
+		if (--numberOfTriggers == 0) {
+			StopAllCoroutines();
+			StartCoroutine(OpenCR());
+		}
 	}
 
 	private IEnumerator OpenCR () {
+		transform.GetChild(0).GetComponent<AudioSource>().Play();
 		while ((endPosition - transform.position).sqrMagnitude > openVector.magnitude / openDuration * Time.deltaTime) {
 			transform.position += openVector / openDuration * Time.deltaTime;
 			yield return new WaitForEndOfFrame();
@@ -55,12 +59,14 @@ public class Door : MonoBehaviour {
 	}
 
 	public void Close () {
-		//print("Closing door!");
-		StopAllCoroutines();
-		StartCoroutine(CloseCR());
+		if (numberOfTriggers++ == 0) {
+			StopAllCoroutines();
+			StartCoroutine(CloseCR());
+		}
 	}
 
 	private IEnumerator CloseCR () {
+		transform.GetChild(1).GetComponent<AudioSource>().Play();
 		while ((startPosition - transform.position).sqrMagnitude > openVector.magnitude / openDuration * Time.deltaTime) {
 			transform.position -= openVector / openDuration * Time.deltaTime;
 			yield return new WaitForEndOfFrame();
