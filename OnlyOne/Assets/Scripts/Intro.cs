@@ -20,7 +20,7 @@ public class Intro : MonoBehaviour {
 	}
 
 	private void Update () {
-		if (Input.anyKeyDown) {
+		if (!Input.GetKeyDown(KeyCode.Escape) && Input.anyKeyDown) {
 			if (intro) {
 				intro = false;
 				StopAllCoroutines();
@@ -52,8 +52,9 @@ public class Intro : MonoBehaviour {
 	IEnumerator RunIntro () {
 		//print("Fade Time 0: " + fadeInTime);
 		//FadeController.FadeIn(fadeInTime);
-		yield return new WaitForSeconds(fadeInTime * 0.75f);
+		yield return new WaitForSeconds(fadeInTime * 0.65f);
 		music.Play();
+		yield return new WaitForSeconds(fadeInTime * 0.35f);
 		intro = true;
 		yield return new WaitForSeconds(holdTime);
 		intro = false;

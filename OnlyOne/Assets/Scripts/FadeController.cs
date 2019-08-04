@@ -65,8 +65,6 @@ public class FadeController : MonoBehaviour {
 	}
 
 	public static void FadeOut () {
-		if (instance.fading) return;
-		instance.fading = true;
 		FadeOut(instance.defaultFadeTime);
 	}
 
