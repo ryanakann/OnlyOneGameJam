@@ -25,9 +25,6 @@ public class FadeController : MonoBehaviour {
 			Destroy(gameObject);
 		}
 		fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);
-	}
-
-	private void Start () {
 		FadeIn();
 	}
 
@@ -36,6 +33,7 @@ public class FadeController : MonoBehaviour {
 	}
 
 	public static void FadeIn (float fadeTime) {
+		//print("Fade Time 1: " + fadeTime);
 		if (instance.fading) return;
 		instance.fading = true;
 		instance.StopAllCoroutines();
@@ -43,14 +41,16 @@ public class FadeController : MonoBehaviour {
 	}
 
 	IEnumerator FadeInCR (float fadeTime) {
+		//print("Fade Time 2: " + fadeTime);
 		float startVolume = 0f;
 		float volumeDifference;
 		if (audioMixer) {
 			audioMixer.GetFloat("Volume", out startVolume);
 		}
 		volumeDifference = startVolume + 80f;
-
+		fadeAmount = 1f;
 		while (fadeAmount > 0f) {
+			//print("Fade Amount: " + fadeAmount);
 			fadeAmount -= Time.deltaTime / fadeTime;
 			fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);
 
@@ -82,7 +82,7 @@ public class FadeController : MonoBehaviour {
 		if (audioMixer) {
 			audioMixer.GetFloat("Volume", out startVolume);
 		}
-
+		fadeAmount = 0f;
 		while (fadeAmount < 1f) {
 			fadeAmount += Time.deltaTime / fadeTime;
 			fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, fadeAmount);

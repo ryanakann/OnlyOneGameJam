@@ -12,6 +12,7 @@ public class Intro : MonoBehaviour {
 	public bool awaitingKeyPress = false;
 
 	public UnityEngine.UI.Text awaitingText;
+	public AudioSource music;
 
 	private void Start () {
 		awaitingText.color = new Color(awaitingText.color.r, awaitingText.color.g, awaitingText.color.b, 0f);
@@ -32,11 +33,13 @@ public class Intro : MonoBehaviour {
 	}
 
 	IEnumerator AwaitKeyPress (float fadeDuration) {
+		//print("Fade Duration: " + fadeDuration);
 		float t = 0f;
 		Color color = awaitingText.color;
 		if (fadeDuration > 0f) {
 			while (t < 1f) {
 				color.a = t;
+				awaitingText.color = color;
 				t += Time.deltaTime / fadeDuration;
 				yield return new WaitForEndOfFrame();
 			}
@@ -47,8 +50,10 @@ public class Intro : MonoBehaviour {
 	}
 
 	IEnumerator RunIntro () {
-		FadeController.FadeIn(fadeInTime);
-		yield return new WaitForSeconds(fadeInTime);
+		//print("Fade Time 0: " + fadeInTime);
+		//FadeController.FadeIn(fadeInTime);
+		yield return new WaitForSeconds(fadeInTime * 0.75f);
+		music.Play();
 		intro = true;
 		yield return new WaitForSeconds(holdTime);
 		intro = false;
