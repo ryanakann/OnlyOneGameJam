@@ -7,4 +7,9 @@ public class LevelTransition : MonoBehaviour {
 		FindObjectOfType<UnityStandardAssets._2D.PlatformerCharacter2D>().ToggleInput(false);
 		SceneController.LoadNextScene(true);
 	}
+
+	public void NextLevel (float fadeTime) {
+		FindObjectOfType<UnityStandardAssets._2D.PlatformerCharacter2D>().ToggleInput(false);
+		SceneController.LoadNextScene(true, fadeTime);
+	}
 }

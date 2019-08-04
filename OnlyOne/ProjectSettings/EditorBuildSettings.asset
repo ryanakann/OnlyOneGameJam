@@ -13,16 +13,19 @@ EditorBuildSettings:
     guid: 302edff69ffc8459e930d8793634f6b6
   - enabled: 1
     path: Assets/Scenes/Finished Levels/Level1.unity
-    guid: d95605f3517914362ad136fe5e2ad944
+    guid: 9eb492a9e6fe64f0697c59a9fc03d310
   - enabled: 1
     path: Assets/Scenes/Finished Levels/Level2.unity
+    guid: d95605f3517914362ad136fe5e2ad944
+  - enabled: 1
+    path: Assets/Scenes/Finished Levels/Level3.unity
     guid: 0266f94d245ca4239873056351106aae
   - enabled: 1
-    path: Assets/Scenes/Finished Levels/lvl3.unity
-    guid: c5e13eb808d9789459b3c0ceba76cd2b
-  - enabled: 1
-    path: Assets/Scenes/Finished Levels/Level 4.unity
+    path: Assets/Scenes/Finished Levels/Level4.unity
     guid: 572045b9fdee37a459f4fd7ffc43b0a8
+  - enabled: 1
+    path: Assets/Scenes/Finished Levels/Level5.unity
+    guid: d067742c2e21f46cca4d9a5d1452097f
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: dc92ff5f8a3c54efba34d107ed88efae

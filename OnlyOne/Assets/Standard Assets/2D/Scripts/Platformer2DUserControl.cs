@@ -41,7 +41,7 @@ namespace UnityStandardAssets._2D
 
 		private void OnTriggerEnter2D (Collider2D collision) {
 			if (collision.CompareTag("SlowDown")) {
-				print("Slow down!");
+				//print("Slow down!");
 				crouch = true;
 			}
 		}
